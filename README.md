@@ -51,8 +51,8 @@
 
   
 #### Source Data
-학습을 위한 데이터 소스는 ai-hub의 'TS_03.이상행동_12.절도.zip(26.65GB)'영상을 사용했습니다. 
-* https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71550
+학습을 위한 데이터 소스는 [AI-Hub 실내(편의점, 매장) 사람 이상행동 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71550)의 'TS_03.이상행동_12.절도.zip(26.65GB)'영상을 사용했습니다. 
+
 
   
 #### 데이터 전처리
