@@ -53,7 +53,29 @@
 #### Source Data
 학습을 위한 데이터 소스는 [AI-Hub 실내(편의점, 매장) 사람 이상행동 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71550)의 'TS_03.이상행동_12.절도.zip(26.65GB)'영상을 사용했습니다. 
 
+```Linux
 
+.
+├── Guardian_project.pptx                 # 발표자료
+├── SourceCode                            # 각 단계별 실행 코드 입니다.
+│   ├── 1. 영상파일전처리.ipynb            
+│   ├── 1.dw_영상파일전처리.ipynb
+│   ├── 2. 학습데이터구축.ipynb
+│   ├── 3. 모델학습.ipynb
+│   ├── 4.모델사용하기.ipynb
+│   └── 모델학습코드_mj.ipynb
+├── etc                                   # dummy folder
+├── model                                 # 모델 결과물입니다.
+│   ├── 2024-04-23_LSTM1.pt
+│   ├── mj_s_500_1_40.pt
+│   └── yolov5s.pt
+├── output                                # 실행 결과
+├── test_movie
+└── trainset
+    ├── dw
+    └── sw
+
+```
   
 #### 데이터 전처리
 
